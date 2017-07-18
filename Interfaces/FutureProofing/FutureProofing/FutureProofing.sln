@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26403.7
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FutureProofing.BL", "FutureProofing.BL\FutureProofing.BL.csproj", "{7C487BF4-7467-490C-AC54-D6156A38176E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FutureProofing.WPF", "FutureProofing.WPF\FutureProofing.WPF.csproj", "{6C8B10F7-A731-4BD5-84A7-AF8FAF68D6AD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7C487BF4-7467-490C-AC54-D6156A38176E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C487BF4-7467-490C-AC54-D6156A38176E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C487BF4-7467-490C-AC54-D6156A38176E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C487BF4-7467-490C-AC54-D6156A38176E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C8B10F7-A731-4BD5-84A7-AF8FAF68D6AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C8B10F7-A731-4BD5-84A7-AF8FAF68D6AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C8B10F7-A731-4BD5-84A7-AF8FAF68D6AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C8B10F7-A731-4BD5-84A7-AF8FAF68D6AD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
