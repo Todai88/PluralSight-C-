@@ -50,6 +50,7 @@
   <ItemGroup>
     <Compile Include="CustomerTestShould.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repositories\CustomerRepositoryShould.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
