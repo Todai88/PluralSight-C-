@@ -17,6 +17,7 @@ namespace ACM.BL
 
         public Customer(int customerId)
         {
+            //
             this.CustomerId = customerId;
             AddressList = new List<Address>();
         }
