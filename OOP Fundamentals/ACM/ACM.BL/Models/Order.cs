@@ -9,7 +9,11 @@ namespace ACM.BL
     public class Order
     {
         public int OrderId { get; private set; }
+        public int CustomerId { get; set; }
+        public int ShippingAddressId { get; set; }
+
         public DateTimeOffset? OrderDate { get; set; }
+        public List<OrderItem> orderItems { get; set; }
 
         public Order()
         {
