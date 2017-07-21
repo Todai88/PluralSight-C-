@@ -50,12 +50,18 @@
   <ItemGroup>
     <Compile Include="Demo2\InternalClassShould.cs" />
     <Compile Include="Demo1\InstrumentationsShould.cs" />
+    <Compile Include="Demo3\DateTimeExtensionsShould.cs" />
+    <Compile Include="Demo4\StringExtensionsShould.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Sixeyed.Extensions.Advanced.Portable\Sixeyed.Extensions.Advanced.Portable.csproj">
+      <Project>{c9a18dd2-c677-40be-a60f-549f074babce}</Project>
+      <Name>Sixeyed.Extensions.Advanced.Portable</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Sixeyed.Extensions.Advanced\Sixeyed.Extensions.Advanced.csproj">
       <Project>{3e8f69ed-cab2-4e69-bdef-bb66b874cfe9}</Project>
       <Name>Sixeyed.Extensions.Advanced</Name>

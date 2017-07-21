@@ -9,6 +9,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{38008392
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sixeyed.Extensions.Advanced.Tests", "Sixeyed.Extensions.Advanced.Tests\Sixeyed.Extensions.Advanced.Tests.csproj", "{243D0C7A-47D7-49AD-9588-8D58D1949D4C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sixeyed.Extensions.Advanced.Portable", "Sixeyed.Extensions.Advanced.Portable\Sixeyed.Extensions.Advanced.Portable.csproj", "{C9A18DD2-C677-40BE-A60F-549F074BABCE}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Sixeyed.Extensions.Advanced.VbTests", "Sixeyed.Extensions.Advanced.VbTests\Sixeyed.Extensions.Advanced.VbTests.vbproj", "{351A221D-D15B-41ED-8234-509BA3CBE3F6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,11 +27,20 @@ Global
 		{243D0C7A-47D7-49AD-9588-8D58D1949D4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{243D0C7A-47D7-49AD-9588-8D58D1949D4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{243D0C7A-47D7-49AD-9588-8D58D1949D4C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C9A18DD2-C677-40BE-A60F-549F074BABCE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9A18DD2-C677-40BE-A60F-549F074BABCE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9A18DD2-C677-40BE-A60F-549F074BABCE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9A18DD2-C677-40BE-A60F-549F074BABCE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{351A221D-D15B-41ED-8234-509BA3CBE3F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{351A221D-D15B-41ED-8234-509BA3CBE3F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{351A221D-D15B-41ED-8234-509BA3CBE3F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{351A221D-D15B-41ED-8234-509BA3CBE3F6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{243D0C7A-47D7-49AD-9588-8D58D1949D4C} = {38008392-E2AA-4A6F-8771-602379676988}
+		{351A221D-D15B-41ED-8234-509BA3CBE3F6} = {38008392-E2AA-4A6F-8771-602379676988}
 	EndGlobalSection
 EndGlobal
