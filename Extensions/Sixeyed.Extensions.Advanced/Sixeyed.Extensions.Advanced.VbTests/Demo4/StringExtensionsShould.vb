@@ -8,7 +8,7 @@ Imports Microsoft.VisualStudio.TestTools.UnitTesting
 
         Dim expected As String = "Demo 4"
         Dim actual As String = "Demo {0}".FormatWith(4)
-
+        ' what
         Assert.AreEqual(expected, actual)
     End Sub
 
